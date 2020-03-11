@@ -1,0 +1,34 @@
+* {
+	box-sizing: border-box;
+}
+
+h3 {
+	font-family: courier;
+	text-align: center;
+}
+
+body {
+	background-color: #000000;
+	color:hsl(118, 100%, 54%);
+	font-family: courier;
+}
+
+
+th, td {
+	border-bottom: 2px dashed hsl(118, 100%, 54%);
+	padding: 15px;
+	margin: 100px;
+	text-align: center;
+
+}
+
+table {
+	max-width: 100%;
+	height: auto;
+}
+
+@media screen and (max-width: 800px) {
+	.left, .main, .right {
+		width: 100%;
+	}
+}
